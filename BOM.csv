@@ -1,1 +1,36 @@
 Item,Qty,Price Ea.,Price total (MOQ),Product Link
+0.1uF/100nF capacitor 0603,15,0.0101,1.01,https://www.lcsc.com/product-detail/C15725.html
+15pF capacitor 0603,2,0.0022,0.22,https://www.lcsc.com/product-detail/C1548.html
+1uF capacitor 0603,4,0.0089,0.45,https://www.lcsc.com/product-detail/C95843.html
+22uF capacitor 0603,3,0.23,0.45,https://www.lcsc.com/product-detail/C59461.html
+20pF capacitor 0603,1,0.0047,0.047,https://www.lcsc.com/product-detail/C105621.html
+LED 0603,2,0.0073,0.73,https://www.lcsc.com/product-detail/C2286.html
+1N5819WS Schottky diode SOD-323,2,0.0107,0.54,https://www.lcsc.com/product-detail/C191023.html
+ZHOURI PZ2.54-2*20-SMT,2,0.24,1.2,https://www.lcsc.com/product-detail/C5378173.html
+APH252012C1R5MP01 1.5uH SMD inductor,1,0.034,0.68,https://www.lcsc.com/product-detail/C42455360.html
+1k resistor 0603,5,0.0054,0.54,https://www.lcsc.com/product-detail/C2907002.html
+39k resistor 0603,1,0.001,0.10,https://www.lcsc.com/product-detail/C54921034.html
+12.5k resistor 0603,1,0.0016,0.16,https://www.lcsc.com/product-detail/C22866.html
+4.7k resistor 0603,2,0.0017,0.17,https://www.lcsc.com/product-detail/C105428.html
+5.1k resistor 0603,2,0.0022,0.22,https://www.lcsc.com/product-detail/C2907044.html
+LXW-52X52X2-SMD tactile switch,2,0.023,0.45,https://www.lcsc.com/product-detail/C53447014.html
+RP2040 microcontroller QFN-56,1,0.99,0.99,https://www.lcsc.com/product-detail/C2040.html
+W25Q16JVUXIQ 16Mbit SPI flash USON-8,1,2.39,11.99,https://www.lcsc.com/product-detail/C2843335.html
+TMI3341 DC-DC converter SOT-23-6,1,0.13,0.68,https://www.lcsc.com/product-detail/C5182732.html
+SPA06-003 pressure sensor LGA-8,1,0.78,0.78,https://www.lcsc.com/product-detail/C30589048.html
+ICM-42688P-HXY IMU LGA-14,1,3.53,3.53,https://www.lcsc.com/product-detail/C46550687.html
+SAM-M8Q-0 GNSS module LCC-20,1,14.49,14.49,https://www.lcsc.com/product-detail/C5447387.html
+USB-TYPE-C-018 USB-C receptacle,1,0.0568,0.57,https://www.lcsc.com/product-detail/C2927038.html
+X322512MOB4SI 12pF crystal 3225 4-pin,1,0.0966,0.48,https://www.lcsc.com/product-detail/C70565.html
+,,,,
+LCSC Parts Total,,,20.97,
+LCSC Shipping,,,5.00,(Bundled with another order)
+LCSC Total,,,25.97,
+,,,,
+JLCPCB 10x10cm 2-layer PCB,1,2.00,2.00,https://jlcpcb.com
+JLCPCB 10x10cm stencil,1,7.50,7.50,https://jlcpcb.com
+JLCPCB Shipping,,,16.00,https://jlcpcb.com
+JLCPCB Taxes,,,4.00,https://jlcpcb.com
+JLCPCB Total,,,29.50,https://jlcpcb.com
+,,,,
+Overall Total,,,55.47,
