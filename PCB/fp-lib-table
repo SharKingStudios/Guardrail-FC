@@ -2,4 +2,7 @@
 	(version 7)
 	(lib (name "easyeda2kicad") (type "KiCad") (uri "C:/Users/Logan/Documents/GitHub/Yuzu Pocket/PCB/libs/imported_lcsc/easyeda2kicad.pretty") (options "") (descr ""))
 	(lib (name "imported_lcsc") (type "KiCad") (uri "${KIPRJMOD}/libs/imported_lcsc.pretty") (options "") (descr ""))
+	(lib (name "orph-pico") (type "KiCad") (uri "C:/Users/Logan/Documents/GitHub/orpheus-pico/orph-pico.pretty") (options "") (descr ""))
+	(lib (name "imported_components") (type "KiCad") (uri "C:/Users/Logan/Documents/GitHub/Nif-T/PCB/libs/imported_components.pretty") (options "") (descr ""))
+	(lib (name "new_imported_components") (type "KiCad") (uri "C:/Users/Logan/Documents/GitHub/Nif-T/PCB/libs/new_imported_components.pretty") (options "") (descr ""))
 )
