@@ -13,6 +13,8 @@ APH252012C1R5MP01 1.5uH SMD inductor,1,0.034,0.68,https://www.lcsc.com/product-d
 12.5k resistor 0603,1,0.0016,0.16,https://www.lcsc.com/product-detail/C22866.html
 4.7k resistor 0603,2,0.0017,0.17,https://www.lcsc.com/product-detail/C105428.html
 5.1k resistor 0603,2,0.0022,0.22,https://www.lcsc.com/product-detail/C2907044.html
+10k resistor 0603,10,0.0014,0.14,https://www.lcsc.com/product-detail/C2930027.html
+20k resistor 0603,10,0.0019,0.19,https://www.lcsc.com/product-detail/C2907011.html
 LXW-52X52X2-SMD tactile switch,2,0.023,0.45,https://www.lcsc.com/product-detail/C53447014.html
 RP2040 microcontroller QFN-56,1,0.99,0.99,https://www.lcsc.com/product-detail/C2040.html
 W25Q16JVUXIQ 16Mbit SPI flash USON-8,1,2.39,11.99,https://www.lcsc.com/product-detail/C2843335.html
@@ -23,9 +25,9 @@ SAM-M8Q-0 GNSS module LCC-20,1,14.49,14.49,https://www.lcsc.com/product-detail/C
 USB-TYPE-C-018 USB-C receptacle,1,0.0568,0.57,https://www.lcsc.com/product-detail/C2927038.html
 X322512MOB4SI 12pF crystal 3225 4-pin,1,0.0966,0.48,https://www.lcsc.com/product-detail/C70565.html
 ,,,,
-LCSC Parts Total,,,20.97,
+LCSC Parts Total,,,40.81,
 LCSC Shipping,,,5.00,(Bundled with another order)
-LCSC Total,,,25.97,
+LCSC Total,,,45.81,
 ,,,,
 JLCPCB 10x10cm 2-layer PCB,1,2.00,2.00,https://jlcpcb.com
 JLCPCB 10x10cm stencil,1,7.50,7.50,https://jlcpcb.com
@@ -33,4 +35,4 @@ JLCPCB Shipping,,,16.00,https://jlcpcb.com
 JLCPCB Taxes,,,4.00,https://jlcpcb.com
 JLCPCB Total,,,29.50,https://jlcpcb.com
 ,,,,
-Overall Total,,,55.47,
+Overall Total,,,75.31,

@@ -17,6 +17,8 @@
 "R7","1","12.5k","","","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",""
 "R8,R9","2","4.7k","","","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",""
 "R10,R11","2","5K1","","","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",""
+"R12,R14,R16,R18,R20,R22,R24,R26,R28,R30","10","10K","","","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",""
+"R13,R15,R17,R19,R21,R23,R25,R27,R29,R31","10","20K","","","","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",""
 "SW1","1","BTN_BOOT","","","","imported_lcsc:SW-SMD_4P-L5.2-W5.2-P5.80-LS6.4","https://www.lcsc.com/datasheet/C53447014.pdf"
 "SW2","1","BTN_RST","","","","imported_lcsc:SW-SMD_4P-L5.2-W5.2-P5.80-LS6.4","https://www.lcsc.com/datasheet/C53447014.pdf"
 "U1","1","RP2040","","","","Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm","https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf"

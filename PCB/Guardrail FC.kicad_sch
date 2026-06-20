@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Guardrail FC")
-		(date "2026-06-15")
-		(rev "1")
+		(date "2026-06-19")
+		(rev "1.1")
 		(company "Logan Peterson")
 	)
 	(lib_symbols
@@ -6512,7 +6512,7 @@
 	)
 	(rectangle
 		(start 15.24 198.12)
-		(end 173.99 246.38)
+		(end 173.99 248.92)
 		(stroke
 			(width 0)
 			(type default)
@@ -6545,6 +6545,18 @@
 			(type none)
 		)
 		(uuid "9ea6515f-9bbf-4a66-a67f-fb2642f6d51a")
+	)
+	(rectangle
+		(start 309.88 15.24)
+		(end 365.76 177.8)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b4c149d1-7714-4f89-8042-c6bc2932c5ed")
 	)
 	(rectangle
 		(start 80.01 156.21)
@@ -6607,6 +6619,19 @@
 			)
 		)
 		(uuid "6268da11-abf4-406c-bb85-f1a797c331bf")
+	)
+	(text "GPIO VOLTAGE DIVIDER"
+		(exclude_from_sim no)
+		(at 347.218 18.034 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "63b1539b-792b-4172-b9b7-9ca1fd981262")
 	)
 	(text "CONNECTORS"
 		(exclude_from_sim no)
@@ -6753,6 +6778,18 @@
 		(uuid "06aafee0-861a-47de-bfb2-153d1c4b76e5")
 	)
 	(junction
+		(at 332.74 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06fdaa1c-1422-457e-bfde-835c8a5f61eb")
+	)
+	(junction
+		(at 342.9 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e5a3316-7c59-459d-b195-50089e3e3a86")
+	)
+	(junction
 		(at 212.09 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6873,6 +6910,12 @@
 		(uuid "4c1bb185-6437-4c94-9af0-4ccdd4c9a243")
 	)
 	(junction
+		(at 325.12 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51fbd322-b52c-4b0b-93ef-a0afcd319dcc")
+	)
+	(junction
 		(at 265.43 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6951,6 +6994,18 @@
 		(uuid "8a2f0ec4-e4b0-436a-9c7e-0448844d5caa")
 	)
 	(junction
+		(at 335.28 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e6afa36-a712-4a97-b26a-d3905107d356")
+	)
+	(junction
+		(at 327.66 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92149b11-0b0d-4492-8a75-616acf920c42")
+	)
+	(junction
 		(at 254 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6985,6 +7040,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b3230ee-3a46-4350-8075-2367544de91f")
+	)
+	(junction
+		(at 340.36 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ba812a5-ba40-4ebb-be48-8a17adffeba9")
 	)
 	(junction
 		(at 264.16 33.02)
@@ -7059,6 +7120,18 @@
 		(uuid "b4a99f98-3292-40ff-84cd-9dde3a0f569f")
 	)
 	(junction
+		(at 330.2 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5b6048f-8f24-4a7f-8f52-e8a33eafaac6")
+	)
+	(junction
+		(at 337.82 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b70b7251-c6cc-43c4-b6b6-d929139d3419")
+	)
+	(junction
 		(at 245.11 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7105,6 +7178,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8e9de8c-c8be-45ca-8a94-9e59ae919df4")
+	)
+	(junction
+		(at 322.58 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd37619c-deb4-4630-a4db-1fdbcde920e0")
 	)
 	(junction
 		(at 101.6 33.02)
@@ -7250,6 +7329,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 119.38) (xy 335.28 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02084e10-8926-44e4-8587-ef625ee7460c")
+	)
+	(wire
+		(pts
 			(xy 48.26 172.72) (xy 50.8 172.72)
 		)
 		(stroke
@@ -7280,6 +7369,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 115.57) (xy 332.74 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03787f78-6b9e-4940-9da8-7fa5b18ae7bb")
+	)
+	(wire
+		(pts
 			(xy 62.23 34.925) (xy 64.77 34.925)
 		)
 		(stroke
@@ -7287,6 +7386,16 @@
 			(type default)
 		)
 		(uuid "04e3c3ca-8378-4e01-8a79-93fb0e2eeb78")
+	)
+	(wire
+		(pts
+			(xy 327.66 157.48) (xy 327.66 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09456540-74ca-48ed-8c44-c2e6e03a16a4")
 	)
 	(wire
 		(pts
@@ -7500,6 +7609,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 153.67) (xy 325.12 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19025f0b-9989-4787-8597-a8952f7ec257")
+	)
+	(wire
+		(pts
 			(xy 118.11 25.4) (xy 118.11 26.67)
 		)
 		(stroke
@@ -7567,6 +7686,16 @@
 			(type default)
 		)
 		(uuid "1c8573b9-f87a-44b0-b514-4d538b4d6c57")
+	)
+	(wire
+		(pts
+			(xy 332.74 132.08) (xy 332.74 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d27c4e1-f3a3-45a9-8e0e-047508f813c5")
 	)
 	(wire
 		(pts
@@ -7900,6 +8029,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 151.13) (xy 322.58 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3520cf6e-d26e-4674-a34a-dd839949a8e1")
+	)
+	(wire
+		(pts
 			(xy 234.95 161.29) (xy 246.38 161.29)
 		)
 		(stroke
@@ -8110,6 +8249,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 170.18) (xy 325.12 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "444ba3e4-e469-4ff5-b8a9-39491975a243")
+	)
+	(wire
+		(pts
 			(xy 52.07 238.76) (xy 52.07 240.03)
 		)
 		(stroke
@@ -8167,6 +8316,16 @@
 			(type default)
 		)
 		(uuid "4a64f7a3-d3a3-4a5a-9af8-12a42ac10593")
+	)
+	(wire
+		(pts
+			(xy 322.58 170.18) (xy 325.12 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b286e59-367d-4d71-9871-b81b39b4afae")
 	)
 	(wire
 		(pts
@@ -8247,6 +8406,16 @@
 			(type default)
 		)
 		(uuid "50e77847-82e6-4b7b-914e-db185b2114eb")
+	)
+	(wire
+		(pts
+			(xy 332.74 119.38) (xy 335.28 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "510d6c1b-0f2c-4583-ae37-e523403cec64")
 	)
 	(wire
 		(pts
@@ -8360,6 +8529,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 81.28) (xy 342.9 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "574e55aa-9ed8-4964-ba3d-449141fe3008")
+	)
+	(wire
+		(pts
 			(xy 298.45 96.52) (xy 289.56 96.52)
 		)
 		(stroke
@@ -8450,6 +8629,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 144.78) (xy 330.2 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "670b39d7-7e26-4900-a7ae-82e94d501623")
+	)
+	(wire
+		(pts
 			(xy 240.03 55.88) (xy 254 55.88)
 		)
 		(stroke
@@ -8457,6 +8646,16 @@
 			(type default)
 		)
 		(uuid "671b61d0-e4fe-4555-9dd6-5d0c9e322ec2")
+	)
+	(wire
+		(pts
+			(xy 340.36 62.23) (xy 340.36 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67a8860c-2b2a-451a-bebd-74e9c4b87e43")
 	)
 	(wire
 		(pts
@@ -8570,6 +8769,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 166.37) (xy 322.58 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7125a037-fd3e-4a55-9838-8024f0b797ff")
+	)
+	(wire
+		(pts
 			(xy 182.88 46.99) (xy 182.88 58.42)
 		)
 		(stroke
@@ -8640,6 +8849,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 132.08) (xy 332.74 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74145614-4aa1-4e27-8e61-c892a1ae1ffd")
+	)
+	(wire
+		(pts
 			(xy 180.34 50.8) (xy 180.34 41.91)
 		)
 		(stroke
@@ -8707,6 +8926,16 @@
 			(type default)
 		)
 		(uuid "780bbbfd-6cdd-43bc-8346-8b543dcb8da8")
+	)
+	(wire
+		(pts
+			(xy 340.36 77.47) (xy 340.36 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78777a55-9134-4f73-b316-d817f5b1f37b")
 	)
 	(wire
 		(pts
@@ -8837,6 +9066,26 @@
 			(type default)
 		)
 		(uuid "86610746-08dc-4782-b2c8-94e947438aa0")
+	)
+	(wire
+		(pts
+			(xy 337.82 106.68) (xy 337.82 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86d1c78f-efe0-48c5-96e3-84455c7ea85c")
+	)
+	(wire
+		(pts
+			(xy 342.9 81.28) (xy 342.9 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88067544-fb36-476f-a729-d896f191d921")
 	)
 	(wire
 		(pts
@@ -9090,6 +9339,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 102.87) (xy 335.28 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a5b3da6-eb57-456b-b300-aec0c939e1ad")
+	)
+	(wire
+		(pts
 			(xy 88.9 175.26) (xy 88.9 185.42)
 		)
 		(stroke
@@ -9130,6 +9389,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 140.97) (xy 327.66 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cfdadbc-cea8-4823-b632-ea44499c940b")
+	)
+	(wire
+		(pts
 			(xy 186.69 109.22) (xy 196.85 109.22)
 		)
 		(stroke
@@ -9167,6 +9436,36 @@
 			(type default)
 		)
 		(uuid "a0b3bea2-716d-4603-9d40-d62f83129992")
+	)
+	(wire
+		(pts
+			(xy 330.2 113.03) (xy 330.2 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0cf7ea2-13a9-441c-b7c1-74c76f4fd8e0")
+	)
+	(wire
+		(pts
+			(xy 325.12 157.48) (xy 327.66 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a9e7f2-f317-40a8-a645-2a408cb38615")
+	)
+	(wire
+		(pts
+			(xy 327.66 144.78) (xy 330.2 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a206bd93-7cde-49da-bdca-da761d61a6dd")
 	)
 	(wire
 		(pts
@@ -9260,6 +9559,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 87.63) (xy 335.28 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7a69f1-18a5-41c6-88e8-d9d82b348398")
+	)
+	(wire
+		(pts
 			(xy 165.1 25.4) (xy 158.75 25.4)
 		)
 		(stroke
@@ -9310,6 +9619,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 68.58) (xy 345.44 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aef096bd-bd5a-41b1-998e-10bd02b67858")
+	)
+	(wire
+		(pts
 			(xy 43.18 33.02) (xy 43.18 31.75)
 		)
 		(stroke
@@ -9340,6 +9659,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 128.27) (xy 330.2 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0ef6588-672a-4b8e-88d8-132951284885")
+	)
+	(wire
+		(pts
 			(xy 52.07 31.75) (xy 52.07 33.02)
 		)
 		(stroke
@@ -9357,6 +9686,16 @@
 			(type default)
 		)
 		(uuid "b3e14326-14d4-4ee1-944b-1ade608a80ce")
+	)
+	(wire
+		(pts
+			(xy 337.82 93.98) (xy 340.36 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b478de35-2602-4572-875e-9497f8e93fa1")
 	)
 	(wire
 		(pts
@@ -9387,6 +9726,16 @@
 			(type default)
 		)
 		(uuid "b6f1ce94-90c5-4a84-971b-8e3bc452bb99")
+	)
+	(wire
+		(pts
+			(xy 342.9 64.77) (xy 342.9 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7bb8d55-bb6b-4297-bbe4-6518620d5b67")
 	)
 	(wire
 		(pts
@@ -9450,6 +9799,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 100.33) (xy 332.74 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcfa47eb-8a55-4c06-9031-a75311ca5f60")
+	)
+	(wire
+		(pts
 			(xy 21.59 240.03) (xy 29.21 240.03)
 		)
 		(stroke
@@ -9497,6 +9856,16 @@
 			(type default)
 		)
 		(uuid "c35e0ad5-8d73-4a76-bdef-7a85155dac70")
+	)
+	(wire
+		(pts
+			(xy 335.28 106.68) (xy 337.82 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3810cf6-cf2a-4399-aea6-4bbfdf26f3b3")
 	)
 	(wire
 		(pts
@@ -9760,6 +10129,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 125.73) (xy 327.66 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de595b9c-7f5f-4683-ae04-2bb5ee1445ab")
+	)
+	(wire
+		(pts
 			(xy 33.02 172.72) (xy 35.56 172.72)
 		)
 		(stroke
@@ -9777,6 +10156,16 @@
 			(type default)
 		)
 		(uuid "e0a02324-451d-473e-b2b5-db8b94c7735f")
+	)
+	(wire
+		(pts
+			(xy 342.9 68.58) (xy 345.44 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0bb8490-9762-4012-bc41-2c6e9a577bf5")
 	)
 	(wire
 		(pts
@@ -9847,6 +10236,16 @@
 			(type default)
 		)
 		(uuid "e8ba296b-11e9-4184-ae0f-c6ad9a1f6608")
+	)
+	(wire
+		(pts
+			(xy 325.12 138.43) (xy 325.12 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e94d191d-2b3c-4328-8797-07e279988a64")
 	)
 	(wire
 		(pts
@@ -10000,6 +10399,16 @@
 	)
 	(wire
 		(pts
+			(xy 342.9 49.53) (xy 342.9 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3b13734-4229-419e-8f40-9826b5371775")
+	)
+	(wire
+		(pts
 			(xy 152.4 212.09) (xy 161.29 212.09)
 		)
 		(stroke
@@ -10057,6 +10466,16 @@
 			(type default)
 		)
 		(uuid "f78ea71f-80b9-4c02-bdd0-da52e8c60ca2")
+	)
+	(wire
+		(pts
+			(xy 337.82 90.17) (xy 337.82 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f82ff878-3bf0-4799-84e0-9828b587f2a8")
 	)
 	(wire
 		(pts
@@ -10120,6 +10539,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 74.93) (xy 337.82 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb467d08-028c-4125-9fad-6fa27cc51937")
+	)
+	(wire
+		(pts
 			(xy 78.74 25.4) (xy 86.36 25.4)
 		)
 		(stroke
@@ -10180,6 +10609,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 93.98) (xy 340.36 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff0a3b54-ae04-40a2-a620-1a4578757fc2")
+	)
+	(wire
+		(pts
 			(xy 134.62 40.64) (xy 146.05 40.64)
 		)
 		(stroke
@@ -10232,9 +10671,9 @@
 			)
 		)
 	)
-	(global_label "GPIO7"
+	(global_label "GPIO20"
 		(shape input)
-		(at 85.09 61.595 0)
+		(at 85.09 94.615 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10242,9 +10681,9 @@
 			)
 			(justify left)
 		)
-		(uuid "0179d245-e91c-4513-bbc1-641036e3d30a")
+		(uuid "03fab7b6-a828-4270-97f9-3303d1845d39")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.76 61.595 0)
+			(at 94.9695 94.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10328,6 +10767,30 @@
 			)
 		)
 	)
+	(global_label "3.3VGPIO8"
+		(shape input)
+		(at 342.9 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d9cffad-da27-4159-8a12-c65fce8825db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 355.6824 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GPIO22"
 		(shape input)
 		(at 118.11 223.52 0)
@@ -10341,54 +10804,6 @@
 		(uuid "11da0d5b-f611-454c-8811-a6a7ee398189")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 126.78 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GPIO18"
-		(shape input)
-		(at 85.09 89.535 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "12701bc6-e166-4486-a045-3aa9724fda2c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.76 89.535 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GPIO12"
-		(shape input)
-		(at 85.09 74.295 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "148e231e-7ff3-43fb-9ac2-d0db6f10c385")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.76 74.295 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10448,9 +10863,9 @@
 			)
 		)
 	)
-	(global_label "GPIO26"
+	(global_label "GPIO16"
 		(shape input)
-		(at 85.09 112.395 0)
+		(at 322.58 36.83 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10458,9 +10873,9 @@
 			)
 			(justify left)
 		)
-		(uuid "264df965-98f5-410b-bd74-225b34116198")
+		(uuid "1ba1825e-58bd-4644-99fa-4eb828ec2a8b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.9695 112.395 0)
+			(at 322.58 26.9505 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10472,7 +10887,79 @@
 			)
 		)
 	)
-	(global_label "GPIO15"
+	(global_label "GPIO28"
+		(shape input)
+		(at 85.09 117.475 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21606049-9335-4c17-a1c1-f2fad5a4ae91")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.9695 117.475 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "3.3VGPIO9"
+		(shape input)
+		(at 340.36 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21880cb8-5eae-4f54-9833-ca19e441abbe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 353.1424 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "3.3VGPIO16"
+		(shape input)
+		(at 85.09 84.455 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "241007a9-250f-4b4c-b1b2-14a2177ff9f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.8724 84.455 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "3.3VGPIO15"
 		(shape input)
 		(at 85.09 81.915 0)
 		(fields_autoplaced yes)
@@ -10482,9 +10969,9 @@
 			)
 			(justify left)
 		)
-		(uuid "2b615de0-703a-44af-9d3f-49f001bae572")
+		(uuid "272bb24f-9887-4aec-9afb-b82bfd87de5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.76 81.915 0)
+			(at 97.8724 81.915 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10520,9 +11007,9 @@
 			)
 		)
 	)
-	(global_label "GPIO21"
+	(global_label "GPIO0"
 		(shape input)
-		(at 85.09 97.155 0)
+		(at 85.09 43.815 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10530,9 +11017,81 @@
 			)
 			(justify left)
 		)
-		(uuid "33dcb64d-a8c9-4299-a639-b3fcda14e723")
+		(uuid "2e4852cd-c0ad-4784-b65b-763074a07590")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.76 97.155 0)
+			(at 93.76 43.815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "3.3VGPIO7"
+		(shape input)
+		(at 345.44 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34faede6-166a-427b-8a34-588db01a3542")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 358.2224 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "3.3VGPIO7"
+		(shape input)
+		(at 85.09 61.595 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35199ca5-a694-4d2c-86f8-cfb2989d2310")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.8724 61.595 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO13"
+		(shape input)
+		(at 330.2 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a1e1e07-5097-43d9-8a7f-8cf7f2ba5638")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 330.2 26.9505 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10589,6 +11148,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "3.3VGPIO14"
+		(shape input)
+		(at 85.09 79.375 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "418aafbf-8e0c-4557-866f-cfd854695b63")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.8724 79.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -10664,30 +11247,6 @@
 			)
 		)
 	)
-	(global_label "GPIO8"
-		(shape input)
-		(at 85.09 64.135 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4ba63a19-0572-4cff-96ce-c10dc6e2761c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.76 64.135 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "SDA0"
 		(shape input)
 		(at 204.47 168.91 270)
@@ -10736,6 +11295,78 @@
 			)
 		)
 	)
+	(global_label "3.3VGPIO8"
+		(shape input)
+		(at 85.09 64.135 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "506336f4-4aee-4ab0-ab35-083aade23333")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.8724 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO2"
+		(shape input)
+		(at 85.09 48.895 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "507cc43f-c50c-4949-a351-24ab0379a0a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.76 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO25"
+		(shape input)
+		(at 85.09 107.315 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "591031cf-38c3-4614-93f4-96ae1363ad8c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.9695 107.315 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SPI_SD3"
 		(shape input)
 		(at 140.97 172.72 0)
@@ -10760,9 +11391,9 @@
 			)
 		)
 	)
-	(global_label "GPIO19"
+	(global_label "GPIO3"
 		(shape input)
-		(at 85.09 92.075 0)
+		(at 85.09 51.435 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10770,9 +11401,9 @@
 			)
 			(justify left)
 		)
-		(uuid "5ea8b20c-a559-426f-9365-bfa02a66be85")
+		(uuid "5da7b768-2278-4023-8359-bf97aa209129")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.76 92.075 0)
+			(at 93.76 51.435 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10808,9 +11439,9 @@
 			)
 		)
 	)
-	(global_label "GPIO0"
+	(global_label "GPIO1"
 		(shape input)
-		(at 85.09 43.815 0)
+		(at 85.09 46.355 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10818,9 +11449,33 @@
 			)
 			(justify left)
 		)
-		(uuid "62372631-489a-4c61-a544-eebacaa1f65f")
+		(uuid "60ee80c3-5e3f-4e91-89f1-7aac0cdc19e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.76 43.815 0)
+			(at 93.76 46.355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO15"
+		(shape input)
+		(at 325.12 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "621699dd-b607-4728-b54b-ab35d5379349")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 26.9505 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10880,6 +11535,30 @@
 			)
 		)
 	)
+	(global_label "3.3VGPIO10"
+		(shape input)
+		(at 85.09 69.215 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66079d9e-3764-4138-bb6c-bcc4431d93ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.8724 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GPIO21"
 		(shape input)
 		(at 105.41 223.52 180)
@@ -10901,54 +11580,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO24"
-		(shape input)
-		(at 85.09 104.775 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "66a82d00-9cbc-4651-8fde-310118260c6d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.76 104.775 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GPIO13"
-		(shape input)
-		(at 85.09 76.835 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "69700e3e-52fe-45e9-ad80-f6fc9265331d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.76 76.835 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -10997,30 +11628,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO9"
-		(shape input)
-		(at 85.09 66.675 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "73b4af85-36ed-4658-a180-b5c0a0d16157")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.76 66.675 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -11120,9 +11727,9 @@
 			)
 		)
 	)
-	(global_label "GPIO3"
+	(global_label "3.3VGPIO11"
 		(shape input)
-		(at 85.09 51.435 0)
+		(at 335.28 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11130,9 +11737,9 @@
 			)
 			(justify left)
 		)
-		(uuid "7e2b3d7d-a262-41f5-a644-00c22253c7ef")
+		(uuid "7d66281e-fea5-4d0a-a33f-bf31c1377083")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.76 51.435 0)
+			(at 349.2719 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11189,6 +11796,54 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO29"
+		(shape input)
+		(at 85.09 120.015 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b3e3190-0a90-49d1-a12d-475c55591dda")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.9695 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "3.3VGPIO12"
+		(shape input)
+		(at 332.74 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c8bf1c6-bf8f-48d0-b5a8-78e90431f211")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 346.7319 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -11264,6 +11919,30 @@
 			)
 		)
 	)
+	(global_label "3.3VGPIO13"
+		(shape input)
+		(at 85.09 76.835 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9095e87b-ae51-46b5-9007-b8b7d810203e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.8724 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GPIO20"
 		(shape input)
 		(at 118.11 209.55 0)
@@ -11312,9 +11991,9 @@
 			)
 		)
 	)
-	(global_label "GPIO22"
+	(global_label "GPIO26"
 		(shape input)
-		(at 85.09 99.695 0)
+		(at 85.09 112.395 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11322,9 +12001,9 @@
 			)
 			(justify left)
 		)
-		(uuid "9364f74d-2788-46ba-a610-f8baf7c7b360")
+		(uuid "944160d7-7ade-4e01-b805-e25dd503e333")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.76 99.695 0)
+			(at 94.9695 112.395 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11360,30 +12039,6 @@
 			)
 		)
 	)
-	(global_label "GPIO17"
-		(shape input)
-		(at 144.78 142.24 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "978851a9-deef-4a41-bbb6-e143fc105452")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.9005 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "SWCLK"
 		(shape input)
 		(at 34.29 109.855 180)
@@ -11408,6 +12063,30 @@
 			)
 		)
 	)
+	(global_label "3.3VGPIO9"
+		(shape input)
+		(at 85.09 66.675 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e8c5ba0-83b8-4115-a14d-11733d95d9fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.8724 66.675 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "USB_D+"
 		(shape input)
 		(at 254 48.26 180)
@@ -11429,54 +12108,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO20"
-		(shape input)
-		(at 85.09 94.615 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a109a05a-1b81-47ed-b1c8-71b311c54784")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.76 94.615 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GPIO23"
-		(shape input)
-		(at 85.09 102.235 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a1e5b8af-4d04-4266-bb7f-d51e3c61cc28")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.76 102.235 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -11517,6 +12148,126 @@
 		(uuid "a5cd61f5-d44c-457e-9a29-635682720d55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 92.8528 53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "3.3VGPIO14"
+		(shape input)
+		(at 327.66 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5fa6157-4c9b-4d34-88d0-e8c420b1f4c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 341.6519 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO23"
+		(shape input)
+		(at 85.09 102.235 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8c82f33-43ca-44ea-80f3-c77741c28443")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.9695 102.235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO12"
+		(shape input)
+		(at 332.74 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a925d4e5-e65e-47f2-8e70-c438b6061c1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 332.74 26.9505 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "3.3VGPIO16"
+		(shape input)
+		(at 322.58 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a94913af-1ac3-4c44-9f74-a7d983b1d205")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 336.5719 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO7"
+		(shape input)
+		(at 345.44 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a94bba54-9cd2-4951-91e9-92966fb73983")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 345.44 28.16 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11624,6 +12375,54 @@
 			)
 		)
 	)
+	(global_label "3.3VGPIO17"
+		(shape input)
+		(at 144.78 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1aca039-7742-48dc-9817-023662fa0d4f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.7881 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO27"
+		(shape input)
+		(at 85.09 114.935 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1d8a2d9-0500-43ee-b74e-f7af5b4068a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.9695 114.935 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SPI_SD0"
 		(shape input)
 		(at 140.97 177.8 0)
@@ -11637,30 +12436,6 @@
 		(uuid "b2e1a39b-4f53-4b40-8ed5-d065db5bb562")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 151.6961 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GPIO29"
-		(shape input)
-		(at 85.09 120.015 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b3110a74-c908-4b60-98f0-dd6c15f64a72")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.9695 120.015 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11696,6 +12471,54 @@
 			)
 		)
 	)
+	(global_label "3.3VGPIO18"
+		(shape input)
+		(at 85.09 89.535 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4bea4f4-3ace-4d06-9cc5-882f3dfe3e0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.8724 89.535 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO19"
+		(shape input)
+		(at 85.09 92.075 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b552c8ba-4852-43c0-948c-6f823e402aeb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.9695 92.075 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SPI_SD3"
 		(shape input)
 		(at 34.29 74.295 180)
@@ -11720,9 +12543,9 @@
 			)
 		)
 	)
-	(global_label "GPIO6"
+	(global_label "3.3VGPIO12"
 		(shape input)
-		(at 85.09 59.055 0)
+		(at 85.09 74.295 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11730,9 +12553,9 @@
 			)
 			(justify left)
 		)
-		(uuid "b9c4af1c-8d7c-4d29-bcb1-0c9dab8f10f6")
+		(uuid "b5921711-0e59-4925-93db-5e45644a8542")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.76 59.055 0)
+			(at 97.8724 74.295 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11744,9 +12567,9 @@
 			)
 		)
 	)
-	(global_label "GPIO27"
+	(global_label "GPIO9"
 		(shape input)
-		(at 85.09 114.935 0)
+		(at 340.36 36.83 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11754,9 +12577,33 @@
 			)
 			(justify left)
 		)
-		(uuid "c60e2415-cfd3-4a9d-b98a-49857f3454cf")
+		(uuid "bdaedf78-ca4c-4477-b455-762c73655ee4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.9695 114.935 0)
+			(at 340.36 28.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO24"
+		(shape input)
+		(at 85.09 104.775 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be96eba3-3582-4ca7-9136-e41c05d8516a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.9695 104.775 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11792,30 +12639,6 @@
 			)
 		)
 	)
-	(global_label "GPIO11"
-		(shape input)
-		(at 85.09 71.755 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c6d60229-07d2-4341-b970-7aaa08787d4d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.76 71.755 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "GPIO7"
 		(shape input)
 		(at 29.21 209.55 180)
@@ -11840,9 +12663,9 @@
 			)
 		)
 	)
-	(global_label "GPIO28"
+	(global_label "3.3VGPIO17"
 		(shape input)
-		(at 85.09 117.475 0)
+		(at 85.09 86.995 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11850,9 +12673,9 @@
 			)
 			(justify left)
 		)
-		(uuid "cff576b1-dd1e-417c-8f46-76de76813a10")
+		(uuid "cd79dfad-18b5-4e97-9b3f-1df4fb9603e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.9695 117.475 0)
+			(at 97.8724 86.995 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11864,9 +12687,9 @@
 			)
 		)
 	)
-	(global_label "GPIO16"
+	(global_label "GPIO6"
 		(shape input)
-		(at 85.09 84.455 0)
+		(at 85.09 59.055 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11874,9 +12697,33 @@
 			)
 			(justify left)
 		)
-		(uuid "d23f2d22-5206-40a9-8e00-8c9dec665ba0")
+		(uuid "d049078c-7dd6-4cd4-ba0c-c92fb8e96cca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.76 84.455 0)
+			(at 93.76 59.055 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO11"
+		(shape input)
+		(at 335.28 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0782927-c2b4-4ae4-bcb8-3fd99215ce14")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 335.28 26.9505 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11960,30 +12807,6 @@
 			)
 		)
 	)
-	(global_label "GPIO10"
-		(shape input)
-		(at 85.09 69.215 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d80d8f27-0f64-40e0-b1e2-0f28fa2ee667")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.76 69.215 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "SCL0"
 		(shape input)
 		(at 85.09 56.515 0)
@@ -11997,54 +12820,6 @@
 		(uuid "d830fbfd-05ce-45ed-83e5-b7a4e096059d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 92.7923 56.515 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GPIO25"
-		(shape input)
-		(at 85.09 107.315 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dcb502da-06bc-4548-9bb3-2893029bc814")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.76 107.315 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GPIO2"
-		(shape input)
-		(at 85.09 48.895 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "df31f1aa-5b7f-4186-aa7c-59a1b26ed01c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.76 48.895 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12080,9 +12855,9 @@
 			)
 		)
 	)
-	(global_label "GPIO1"
+	(global_label "GPIO22"
 		(shape input)
-		(at 85.09 46.355 0)
+		(at 85.09 99.695 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12090,9 +12865,9 @@
 			)
 			(justify left)
 		)
-		(uuid "e088bb17-04f1-41b4-ba87-ca8cc37b6c9a")
+		(uuid "e0f08c88-a539-4029-8f71-4c499f1dd246")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.76 46.355 0)
+			(at 94.9695 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12128,6 +12903,30 @@
 			)
 		)
 	)
+	(global_label "GPIO10"
+		(shape input)
+		(at 337.82 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2fce622-82f7-4472-af44-4dc1cd86b2e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 337.82 26.9505 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GPIO27"
 		(shape input)
 		(at 139.7 223.52 180)
@@ -12149,6 +12948,54 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO21"
+		(shape input)
+		(at 85.09 97.155 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3565b16-a07c-4dc1-acd0-ddd0ce9cfcc0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.9695 97.155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "3.3VGPIO11"
+		(shape input)
+		(at 85.09 71.755 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3d057b0-75f5-44d7-8b8c-255eb4e5615c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.8724 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -12176,9 +13023,9 @@
 			)
 		)
 	)
-	(global_label "GPIO17"
+	(global_label "3.3VGPIO15"
 		(shape input)
-		(at 85.09 86.995 0)
+		(at 325.12 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12186,33 +13033,9 @@
 			)
 			(justify left)
 		)
-		(uuid "f33f6098-e729-48e3-8bde-03eb7dcd0928")
+		(uuid "f3c5557e-719e-4940-a8d3-f594d186faf7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.76 86.995 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GPIO14"
-		(shape input)
-		(at 85.09 79.375 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f4b1feaf-ec66-4a82-9e26-759dd195908d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.76 79.375 0)
+			(at 339.1119 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12248,6 +13071,54 @@
 			)
 		)
 	)
+	(global_label "3.3VGPIO13"
+		(shape input)
+		(at 330.2 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f90db802-cdb2-4830-9aa6-e21f9f65441d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 344.1919 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO14"
+		(shape input)
+		(at 327.66 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9a868e0-2a47-41ca-975a-fa4fc562369b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 327.66 26.9505 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GPIO9"
 		(shape input)
 		(at 29.21 223.52 180)
@@ -12269,6 +13140,54 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "3.3VGPIO10"
+		(shape input)
+		(at 337.82 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb3cf028-08d6-49e1-adef-0d2bdd620bd7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 351.8119 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO8"
+		(shape input)
+		(at 342.9 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fcee42a8-01c3-424f-a4ef-0a76b6c15897")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 342.9 28.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -15262,6 +16181,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 335.28 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2e91a4ed-b7c4-4069-ad92-7a3d447a1591")
+		(property "Reference" "R20"
+			(at 337.312 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 335.28 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 333.502 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 335.28 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 335.28 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 335.28 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 335.28 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 335.28 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 335.28 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "164ea609-6090-4987-bbda-b01b89d9e955")
+		)
+		(pin "2"
+			(uuid "ca44f020-f90d-4e75-b23a-77ca61b69606")
+		)
+		(instances
+			(project "Guardrail FC"
+				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 298.45 105.41 0)
 		(unit 1)
@@ -16672,6 +17721,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 335.28 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "44941105-4f5b-4c23-8922-c8b7b0ea8904")
+		(property "Reference" "R21"
+			(at 337.312 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20K"
+			(at 335.28 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 333.502 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 335.28 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 335.28 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 335.28 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 335.28 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 335.28 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 335.28 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "847a4338-eebe-4deb-aeeb-d48b6c2d151d")
+		)
+		(pin "2"
+			(uuid "d38080f9-727f-4f9e-818f-7c6cc20358aa")
+		)
+		(instances
+			(project "Guardrail FC"
+				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 254 100.33 0)
 		(unit 1)
@@ -17085,6 +18264,136 @@
 			(project "Guardrail FC"
 				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 327.66 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b87e19e-647b-4c90-9083-486d1443d159")
+		(property "Reference" "R27"
+			(at 329.692 137.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20K"
+			(at 327.66 137.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 325.882 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 327.66 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 327.66 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 327.66 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 327.66 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 327.66 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 327.66 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6408d98b-ca86-452e-8a03-79039dacc177")
+		)
+		(pin "2"
+			(uuid "dc4a94d8-a800-44be-b9b4-77f16285d193")
+		)
+		(instances
+			(project "Guardrail FC"
+				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -18714,6 +20023,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 340.36 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "607ca9b2-038f-4331-bdca-a55b841538a3")
+		(property "Reference" "R16"
+			(at 342.392 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 340.36 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 338.582 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 340.36 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 340.36 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 340.36 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 340.36 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 340.36 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 340.36 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bbcf4565-2990-4236-ac24-9600845e6bc5")
+		)
+		(pin "2"
+			(uuid "4cdd6ab6-4d44-457a-af47-c5f7cdebea0c")
+		)
+		(instances
+			(project "Guardrail FC"
+				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_RaspberryPi:RP2040")
 		(at 59.69 81.915 0)
 		(unit 1)
@@ -19399,6 +20838,136 @@
 			(project "Guardrail FC"
 				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 330.2 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d7c39ca-191e-47e0-a2ba-ad776dd8aa0b")
+		(property "Reference" "R25"
+			(at 332.232 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20K"
+			(at 330.2 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 328.422 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 330.2 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 330.2 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 330.2 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 330.2 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 330.2 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 330.2 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4116c41b-f06f-4663-8350-b44d62bfc7b3")
+		)
+		(pin "2"
+			(uuid "e0983392-d6eb-4014-8ff2-5cf9447fa677")
+		)
+		(instances
+			(project "Guardrail FC"
+				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -20334,6 +21903,136 @@
 			(project "Guardrail FC"
 				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
 					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 325.12 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "760b58aa-980a-463b-87fe-0952049d29c5")
+		(property "Reference" "R28"
+			(at 327.152 142.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 325.12 142.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 323.342 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 325.12 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 325.12 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 325.12 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 325.12 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 325.12 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 325.12 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38da0d88-88bf-4ed5-b2ef-8fd36c6f9af0")
+		)
+		(pin "2"
+			(uuid "73c4b44f-0a7d-4ff7-97b5-8803ff2f0f95")
+		)
+		(instances
+			(project "Guardrail FC"
+				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -23073,6 +24772,396 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 325.12 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a9aa2721-54e2-4950-bb11-f4738f003d46")
+		(property "Reference" "R29"
+			(at 327.152 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20K"
+			(at 325.12 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 323.342 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 325.12 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 325.12 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 325.12 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 325.12 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 325.12 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 325.12 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc65abc6-427f-4c88-9a6a-17ebaa0a480c")
+		)
+		(pin "2"
+			(uuid "a014a492-ff61-46b0-ab0e-aa9b69661ae0")
+		)
+		(instances
+			(project "Guardrail FC"
+				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 337.82 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aac01ff3-8379-487c-9944-790c84aa5622")
+		(property "Reference" "R18"
+			(at 339.852 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 337.82 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 336.042 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 337.82 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 337.82 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 337.82 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 337.82 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 337.82 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 337.82 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f53983ce-f1f1-4bff-bfe1-cc20f3fdaac1")
+		)
+		(pin "2"
+			(uuid "bf27a087-f4c3-406c-8110-0634bcf69e66")
+		)
+		(instances
+			(project "Guardrail FC"
+				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 345.44 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aba14c91-a983-4146-8442-85146fa176a9")
+		(property "Reference" "R13"
+			(at 347.472 48.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20K"
+			(at 345.44 48.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 343.662 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 345.44 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 345.44 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 345.44 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 345.44 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 345.44 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 345.44 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d280034-8ce3-49a0-8bd0-548548cdc97a")
+		)
+		(pin "2"
+			(uuid "3b41ce9d-7d64-4895-b107-a461980f25f2")
+		)
+		(instances
+			(project "Guardrail FC"
+				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 134.62 41.91 0)
 		(unit 1)
@@ -24018,6 +26107,396 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 342.9 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b934aff5-abdf-4197-a527-ce0807a92e67")
+		(property "Reference" "R15"
+			(at 344.932 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20K"
+			(at 342.9 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 341.122 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 342.9 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 342.9 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 342.9 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 342.9 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 342.9 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 342.9 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a88a98aa-40d2-4145-9d44-8e4a238f2611")
+		)
+		(pin "2"
+			(uuid "e81a95b6-28ee-47fc-a731-e4639a57995f")
+		)
+		(instances
+			(project "Guardrail FC"
+				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 332.74 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bcaa8c96-0cc9-4573-80ce-e8f1781c0fed")
+		(property "Reference" "R23"
+			(at 334.772 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20K"
+			(at 332.74 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 330.962 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 332.74 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 332.74 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 332.74 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 332.74 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 332.74 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 332.74 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4921f8c-27fa-4132-b59d-b478cf13f8f6")
+		)
+		(pin "2"
+			(uuid "70989d87-0ffc-41e6-822a-5d66cfd0b026")
+		)
+		(instances
+			(project "Guardrail FC"
+				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 322.58 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "be930955-4c5d-4a58-b15f-4666e6b08c5b")
+		(property "Reference" "R31"
+			(at 324.612 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20K"
+			(at 322.58 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 320.802 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 322.58 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 322.58 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 322.58 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 322.58 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 322.58 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 322.58 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "709dbf1b-2769-4918-9146-d6d959184be3")
+		)
+		(pin "2"
+			(uuid "7e35be53-380e-47fa-b323-fd467e8b6957")
+		)
+		(instances
+			(project "Guardrail FC"
+				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 85.09 212.09 270)
 		(unit 1)
@@ -24408,6 +26887,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 327.66 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c8539d76-1f0d-47a6-9fc4-9981f5df0b85")
+		(property "Reference" "R26"
+			(at 329.692 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 327.66 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 325.882 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 327.66 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 327.66 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 327.66 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 327.66 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 327.66 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 327.66 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e621b841-0c9a-468d-a082-5b5b3f9b1172")
+		)
+		(pin "2"
+			(uuid "0b23efc2-1193-4e06-a46d-4dc435ca3de0")
+		)
+		(instances
+			(project "Guardrail FC"
+				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 34.29 29.21 0)
 		(mirror y)
@@ -24535,6 +27144,136 @@
 			(project "Guardrail FC"
 				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 340.36 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cbca93cc-5de1-42bb-aaf5-a2915d200086")
+		(property "Reference" "R17"
+			(at 342.392 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20K"
+			(at 340.36 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 338.582 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 340.36 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 340.36 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 340.36 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 340.36 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 340.36 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 340.36 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c8bd52a-6970-4e38-a3b4-0ed3d9d85ac2")
+		)
+		(pin "2"
+			(uuid "a32a29d0-0b08-47d9-bf2f-8703f1f73a90")
+		)
+		(instances
+			(project "Guardrail FC"
+				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -24705,6 +27444,136 @@
 			(project "Guardrail FC"
 				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
 					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 337.82 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cdbf57a6-fcde-4ee5-8397-cc1756fb7062")
+		(property "Reference" "R19"
+			(at 339.852 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20K"
+			(at 337.82 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 336.042 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 337.82 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 337.82 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 337.82 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 337.82 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 337.82 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 337.82 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c36bac9c-a2b7-48bb-a22a-d056df25bf92")
+		)
+		(pin "2"
+			(uuid "5112e14d-0d45-4a67-bf82-30846943a345")
+		)
+		(instances
+			(project "Guardrail FC"
+				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -25543,6 +28412,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 332.74 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de37f059-ff0a-4d9c-90b6-a02305d346a5")
+		(property "Reference" "R22"
+			(at 334.772 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 332.74 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 330.962 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 332.74 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 332.74 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 332.74 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 332.74 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 332.74 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 332.74 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1357f85e-f037-4fbb-a4b9-c125a1df5b22")
+		)
+		(pin "2"
+			(uuid "f38479fa-4bff-46c9-934a-8ae604d2deb0")
+		)
+		(instances
+			(project "Guardrail FC"
+				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V1")
 		(at 55.88 24.13 0)
 		(unit 1)
@@ -25930,6 +28929,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 330.2 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e8a8f215-04a8-42c5-a23b-6efd460e84b3")
+		(property "Reference" "R24"
+			(at 332.232 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 330.2 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 328.422 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 330.2 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 330.2 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 330.2 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 330.2 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 330.2 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 330.2 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd72550a-cfb3-4ffb-9376-0278728fa8ba")
+		)
+		(pin "2"
+			(uuid "9e2fd74c-07ec-4372-9952-c80e140bd4eb")
+		)
+		(instances
+			(project "Guardrail FC"
+				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "imported_lcsc:TMI3341")
 		(at 154.94 40.64 0)
 		(unit 1)
@@ -26126,6 +29255,136 @@
 			(project "Guardrail FC"
 				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
 					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 345.44 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec7e779f-56ba-416f-ba37-c983afd6d0b5")
+		(property "Reference" "R12"
+			(at 347.472 40.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 345.44 40.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 343.662 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 345.44 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 345.44 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 345.44 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 345.44 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 345.44 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 345.44 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3706cf45-c53d-4c1c-8109-fcdf0c677242")
+		)
+		(pin "2"
+			(uuid "d0649599-6e0a-44ea-91c7-838c7fb67a31")
+		)
+		(instances
+			(project "Guardrail FC"
+				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -26593,6 +29852,213 @@
 			(project "Guardrail FC"
 				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 342.9 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f728df35-ba1f-45eb-9d8c-a0869f9362c2")
+		(property "Reference" "R14"
+			(at 344.932 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 342.9 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 341.122 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 342.9 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 342.9 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 342.9 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 342.9 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 342.9 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 342.9 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e4e9b92-3db3-4a9c-8ad0-d492f39c11fd")
+		)
+		(pin "2"
+			(uuid "1c7ed027-5a21-4d9d-858d-b764e4f5ffc5")
+		)
+		(instances
+			(project "Guardrail FC"
+				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 322.58 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f9ed8a71-ab6c-449c-b553-d455df3237f4")
+		(property "Reference" "#PWR01"
+			(at 322.58 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 326.136 172.212 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 322.58 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d3aef41-b79f-4f07-ae5e-7147716ec329")
+		)
+		(instances
+			(project "Guardrail FC"
+				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -27179,6 +30645,136 @@
 			(project "Guardrail FC"
 				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 322.58 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ffd271a5-67c0-474e-936f-03e36e50d279")
+		(property "Reference" "R30"
+			(at 324.612 154.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 322.58 154.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 320.802 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 322.58 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 322.58 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 322.58 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 322.58 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 322.58 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 322.58 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee833de8-be1a-47d1-a0df-b4357214ee67")
+		)
+		(pin "2"
+			(uuid "494f920c-f54f-4e7f-a48d-bb227d38ca44")
+		)
+		(instances
+			(project "Guardrail FC"
+				(path "/0f55dc55-d6ba-4869-bc56-48b7fd3b9512"
+					(reference "R30")
 					(unit 1)
 				)
 			)

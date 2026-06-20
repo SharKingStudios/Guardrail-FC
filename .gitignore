@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+
+# Downloaded flight data is local test data, not firmware source.
+Firmware/logs/
+Firmware/*.grf
+Firmware/*.csv
